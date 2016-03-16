@@ -1,42 +1,41 @@
 ---
-title: "Toronto's $358,000 Parking Spot"
-author: "David Brait"
-date: "Wednesday, February 24, 2016"
-output: html_document
+layout: post
+title: "Toronto's Toronto's $332,550 Parking Spot"
+date: 2016-03-10
+comments: True
 ---
 
-Yesterday, the City of Toronto released their 2015 parking ticket data which contains information on every ticket issued last year.  Inspiried by the fantastic <a href="http://iquantny.tumblr.com/">I Quant NY blog</a>, I started exploring the data to see if I could uncover any interesting trends.  I compared my findings against the 2013 and 2014 datasets to ensure that the findings were not aberrations.
+Yesterday, the City of Toronto released their <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD">2015 parking ticket dataset</a> detailing raw information on every parking ticket issued last year in the city.  Inspiried by the fantastic <a href="http://iquantny.tumblr.com/">I Quant NY blog</a>, I started exploring the data to search for interesting trends.  I also used the 2013 and 2014 datasets to compare results year over year.
 
-Toronto's most expensive parking ticket is $450.  There are several infractions that are deemed worthy of that hefty price tag, most of which are some variation of parking in a handicapped area.  Some of frequently addresses are expected: 555 Rexdale Blvd (Woodbine), 1090 Don Mills Rd (Shops at Don Mills) and 3401 Dufferin St (Yorkdale).  All have large parking areas where you could envision drivers trying to get away with parking in handicapped spots.  While all three of these locations are in the top ten in tickets issued, they usually struggle to crack the top five.  That honor tends to go to addresses that are much more confusing for the average driver.
+I decided to start by looking into the tickets issued for the city's max fine of $450.  These tickets are given for various variations of parking illegally in a handicapped zone.  Some of the most frequently cited addresses make intuitive sense: **555 Rexdale Blvd (Woodbine)**, **1090 Don Mills Rd (Shops at Don Mills)** and **3401 Dufferin St (Yorkdale)**.  All are large crowded areas where drivers might try to get away with parking in handicapped spots.
 
-For the last three years 410 College St has been the undisputed king of max fine parking tickets, doubling any other Toronto address.  In the google streetview image below (in which a likely victim is parked in the spot), the signage appears pretty clear but the presence of a handicapped spot is likely the issue.  
+But, most of the city's biggest cash cows are more obscure spots that have consistently flummoxed Toronto drivers.  Toronto's undisputed king of max fine parking tickets, doubling any other address in the city, is **410 College St**.  In 2015 alone, **796 tickets** were issued for a total of **$358,200**.  This is not a one year abberation.  The spot generated **$401,850** in 2014 and **$291,150** in 2013.  It is tough to tell, but you can judge what is causing the issue for yourself with the Google Streetview image below (in which a likely victim is parked in the spot).  
 
-##  410 College St (Across the street) 
-#### 2015: 796 tickets issued for $358,200
-#### 2014: 893 tickets issued for $401,850
-#### 2013: 647 tickets issued for $291,150
+## 410 College St
 
-There is a significant drop off in tickets, but a max ticket per day at 18 Grenville St is still a nice revenue generator for city hall.  Likely another case of an odd place for a handicapped designitation to be.  
+<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sca!4v1455649270872!6m8!1m7!1sk9t_aIUtkuWeAvu_uTdHFA!2m2!1d43.65675864281898!2d-79.40623669615232!3f144.63015609181116!4f-16.43494906144889!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+No other address in Toronto is as consistent a revenue producer as 410 College, but there are several other spots that seem to be a lock every year for $100,000+ in max fine ticket revenue.  **18 Grenville St** seems like another awkward place for a handicapped designitation.  In 2015 the spot averaged close to a max fine a day, **342 tickets for $153,900**.  Each of the last three years max fines at 18 Grenville have topped **$145,000**.
 
 ## 18 Grenville St 
-#### 2015: 342 tickets issued for $153,900
-#### 2014: 328 tickets issued for $147,600
-#### 2013: 400 tickets issued for $180,000
 
-Another victim pictured in the google street view image.  This is the exit on the eastside of the Manulife center.  The discrete underground nature of the exit likely throws people off. 
+<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sca!4v1455651657879!6m8!1m7!1s83857MNyUcdO5tzZJ82cxA!2m2!1d43.66195861412737!2d-79.38421575983601!3f329.1808863828714!4f-5.896528146053157!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-## 35 Balmuto St (Across the street)
-#### 2015: 326 tickets issued for $146,700
-#### 2014: 253 tickets issued for $113,850
-#### 2013: 257 tickets issued for $115,650
 
-The last of Toronto's prolific max fine spots, is on Murray St just west of Mount Sinai hospital.
+Another google street view image with a likely victim in the still shot.  This is across the street from **35 Balmuto** just outside an eastside exit from the Manulife Center.  This spot has topped $100,000 in fines the last three years with 2015 seeing **326 tickets** for **$146,700**.
 
-##60 Murray St
-#### 2015: 287 tickets issued for $129,150
-#### 2014: 346 tickets issued for $155,700.
-#### 2013: 315 tickets issued for $141,750
+## 35 Balmuto St
 
-If you are interested in the data or my code, a link to my github is on the drop down side panel.  The data is also available at the city of Toronto's open data page.
+<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sca!4v1457569124752!6m8!1m7!1s1EsfEA2OFO2ZS7besE31jg!2m2!1d43.66953377351889!2d-79.3878226779771!3f223.54294412397383!4f-11.343472253253594!5f1.9587109090973311" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-*add in google street maps source
+
+The last of Toronto's prolific max fine spots, **60 Murray St** just west of Mount Sinai hospital.  In 2015 this spot produced **287 tickets** for **$129,150**, its lowest total of the last three years.
+
+## 60 Murray St
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sca!4v1455651896816!6m8!1m7!1sotM4k6jUW09oEeBmET3sQg!2m2!1d43.65821668092152!2d-79.39131905145949!3f245!4f0!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+{% include twitter_plug.html %}

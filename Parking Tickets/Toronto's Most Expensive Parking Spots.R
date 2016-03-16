@@ -8,12 +8,14 @@ library(lubridate)
 library(stringr)
 
 
-setwd("C:/Users/My Files/Desktop/Data Science Resources/Toronto Data/Parking Tickets/2015")
+setwd("C:/Users/My Files/Desktop/Data Science Resources/Toronto/Parking Tickets/2015")
 Tag_1_2015 <- read.csv("Parking_Tags_Data_2015_1.csv")
 Tag_2_2015 <- read.csv("Parking_Tags_Data_2015_2.csv")
 Tag_3_2015 <- read.csv("Parking_Tags_Data_2015_3.csv")
 
-setwd("C:/Users/My Files/Desktop/Data Science Resources/Toronto Data/Parking Tickets/2014")
+Park_2015 <- rbind(Tag_1_2015, Tag_2_2015, Tag_3_2015)
+
+setwd("C:/Users/My Files/Desktop/Data Science Resources/Toronto/Parking Tickets/2014")
 Tag_1_2014 <- read.csv("Parking_Tags_Data_2014_1.csv")
 
 #few of tag 1's columns are differ from standard format
@@ -27,7 +29,7 @@ Tag_4_2014 <- read.csv("Parking_Tags_Data_2014_4.csv")
 
 Park_2014 <- rbind(Tag_1_2014, Tag_2_2014, Tag_3_2014, Tag_4_2014)
 
-setwd("C:/Users/My Files/Desktop/Data Science Resources/Toronto Data/Parking Tickets/2013")
+setwd("C:/Users/My Files/Desktop/Data Science Resources/Toronto/Parking Tickets/2013")
 Park_2013 <- read.csv("Parking_Tags_Data_2013.csv")
 
 
