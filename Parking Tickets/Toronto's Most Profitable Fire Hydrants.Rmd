@@ -1,13 +1,13 @@
 ---
+layout: post
 title: "Toronto's Most Profitable Fire Hydrants"
-author: "David Brait"
-date: "Sunday, March 27, 2016"
-output: html_document
+date: 2016-03-27
+comments: True
 ---
 
-Expanding on my last post about <a href="http://dbrait.github.io/2016/03/10/Toronto's-$358,000-Parking-Spot/">Toronto's most expensive parking tickets</a>, I decided to dive back into the city of Toronto's parking ticket data.  Fire hydrants are another interesting type of infraction that have been very profitable for the city.  In 2015, there were **32,791** tickets issued for parking within 3 meters of a fire hydrant.  At $100 per ticket, that produced close to **$3.3 million** in revenue.  
+Expanding on my last post about <a href="http://dbrait.github.io/2016/03/10/Toronto's-$358,000-Parking-Spot/">Toronto's most expensive parking tickets</a>, I decided to dive back into the city of Toronto's parking ticket data.  Fire hydrant fines are another interesting type of infraction that have been very profitable for the city.  In 2015, there were **32,791** tickets issued for parking within 3 meters of a fire hydrant.  At $100 per ticket, that produced close to **$3.3 million** in revenue.  
 
-As expected, there are several fire hydrants that are cash cows.  **393 University Avenue** is the city's most consistent revenue source.  As you can see in the Google Street View below, the hydrant is well back from the street and tough to notice for the average driver.  This hydrant has topped **290** tickets each of the last three years, with a high of **557** tickets in 2013.
+As expected, there are several fire hydrants that are cash cows for city hall.  **393 University Avenue** is the city's most consistent revenue source.  As you can see in the Google Street View below, the hydrant is well back from the street and tough to notice for the average driver.  This hydrant has topped **290** tickets each of the last three years, with a high of **557** tickets in 2013.
 
 ## 393 University Avenue
 
