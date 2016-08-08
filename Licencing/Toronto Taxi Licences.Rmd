@@ -1,0 +1,7 @@
+---
+title: "Has Uber changed the issuance of Toronto taxi licences"
+author: "David Brait"
+date: "Thursday, May 19, 2016"
+output: html_document
+---
+

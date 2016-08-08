@@ -1,0 +1,8 @@
+---
+title: "Toronto's Independent Pizza"
+author: "David Brait"
+date: "Wednesday, May 18, 2016"
+output: html_document
+---
+
+Map out the areas that have preserved independent pizza businesses, versus those that have been overrun by chains (dominoes, pizza pizza, pizza hut, etc)
