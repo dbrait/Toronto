@@ -1,0 +1,70 @@
+---
+title: "Toronto's Demographics"
+author: "David Brait"
+date: "Tuesday, June 28, 2016"
+output: html_document
+---
+
+Using the Well Being set from the 2011 census, available on the city of <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4482904ade9ea410VgnVCM10000071d60f89RCRD>Toronto's open data portal</a>.  Inspiried by Myles Harrison from his blog <a href="http://www.everydayanalytics.ca/">everydayanalytics</a>, I thought it would be interesting to look at the breakdown of different ethnicities across the city, as definied by the person's mother tongue.  To see if the historical areas of ethnic congregations (i.e Little Italy, Little Portgual, Little India, etc) still help up today.  
+
+## Portugese
+
+Portugese was most predominant in the central west part of the city, chiefly the Dovercourt-Wallace Emersion-Junction neighborhood, with over 6,000 native tongue portugese (close to 20% of the neighborhood).  The Portugese presence spilled over into neighboring areas like Weston-Pellam Park, Corso-Italia Davenport, Caledonia-Fairbank, Keelesdale-Eglington West, Oakwood Village, Rockcliffe-Smythe, Dufferin Grove, Palmerston-Little Italy, Trinity Bellwoods and Little Portugal. 
+
+<img src="img/Portugese.png">
+
+
+## Italian
+
+Italians appear to have migrated north through the years, from the traditional College st Little Italy.  Downsview-Roding-CFB leads the city in Italian population, with neighboring areas of Glenfield-Jane Heights, York University Heights, Yorkdale-Glen Park and Maple Leaf with sizeable presences.  The more traditional areas of Oakwood Village and Corso Italia-Davenport also still have significant populations
+
+<img src="img/Italian.png">
+
+## Tamil
+Tamil population mainly in Scarborough in Rouge, Malvern, and Woburn predominantly with another pocket in L'Amoreaux
+<img src="img/Tamil.png">
+
+## Persian
+Persian presence mainly confined to Willowdale East, with pockets in surronding areas of Bayview Village, Don Valley Village, Newtonbrook East and West, with other presence in Flemingdon Park.
+<img src="img/Persian.png">
+
+
+## Chinese
+Chinese population is the highest overall and is predominantly located in the the northeast pocket of the city just south of Markham in Milliken, Steeles, L'Amoreaux, Agincourt North, Tam O'Shanter-Sullivan, Agincourt South-Malvern-West with another pocket in Willowdale East.
+
+<img src="img/Chinese.png">
+
+## Korean
+
+Large Korean Populations in Islington City Centre West, Willowdale East, and Newtonbrook East and West.
+
+<img src="img/Korean.png">
+
+
+## Russian
+
+The city's Russian population is scarce with the exception of a pocket in the north central section of Toronto.  Westminster-Branson and Newtonbrook West are the two major areas.
+
+<img src="img/Russian.png">
+
+
+## Spanish
+Spanish speaking precence predominantly in Glenfield Jane-Heights, Downsview-Roding-CFB also in the west in Rockcliffe Smythe.
+
+<img src="img/Spanish.png">
+
+## Tagalog
+
+Tagalog has a large presence in the east end in Rouge, Malvern, Woburn, Bendale, Eglington East and Wexford-Maryvale.  It also has a large presence in the central north in Newtonbrook West, Westminster-Branson, Clanton Park, Downsview-Roding-CFB, Englemount-Lawrence.
+
+<img src="img/Tagalog.png">
+
+
+## Urdu
+
+Urdu has a very strong pocket of presence in Thorncliffe Park and Flemingdon Park, right in the middle of the city.  The rest of the population is scattered in the Northwest (West Humber-Clairville, Mount Olive-Silverstone-Jamestown, Kingsview Village-The Westway)   and Northeast (Rouge, Malvern, Wobourn) far reaches of Toronto.
+
+<img src="img/Urdu.png">
+
+
+
